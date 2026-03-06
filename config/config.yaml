@@ -116,24 +116,31 @@ rss:
     - id: "hacker-news"
       name: "Hacker News"
       url: "https://hnrss.org/frontpage"
-      # max_age_days: 1               # 示例：只推送1天内的文章
 
     - id: "ruanyifeng"
       name: "阮一峰的网络日志"
       url: "http://www.ruanyifeng.com/blog/atom.xml"
-      # max_age_days: 7               # 示例：推送7天内的文章（更新较慢的博客）
-    
+
     - id: "yahoo-finance"
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
-      enabled: false                  # 禁用
+      enabled: false
 
-    # 自定义源示例
-    # - id: "custom-feed"
-    #   name: "自定义源"
-    #   url: "https://example.com/feed.xml"
-    #   enabled: false
-    #   max_age_days: 0               # 示例：禁用过滤，推送所有文章
+    - id: "keji&biancheng"
+      name: "keji&biancheng"
+      url: "https://www.bing.com/news/search?q=科技+编程&format=RSS"
+
+    - id: "quanqiuxinwen"
+      name: "quanqiuxinwen"
+      url: "https://www.bing.com/news/search?q=全球新闻&format=RSS"
+
+    - id: "huangjin/caijing"
+      name: "huangjin/caijing"
+      url: "https://www.bing.com/news/search?q=黄金价格+走势&format=RSS"
+
+    - id: "AI"
+      name: "AI"
+      url: "https://www.bing.com/news/search?q=人工智能&format=RSS"
 
 
 # ===============================================================
