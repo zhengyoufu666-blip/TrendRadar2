@@ -126,22 +126,6 @@ rss:
       url: "https://finance.yahoo.com/news/rssindex"
       enabled: false
 
-    - id: "keji&biancheng"
-      name: "keji&biancheng"
-      url: "https://www.bing.com/news/search?q=科技+编程&format=RSS"
-
-    - id: "quanqiuxinwen"
-      name: "quanqiuxinwen"
-      url: "https://www.bing.com/news/search?q=全球新闻&format=RSS"
-
-    - id: "huangjin/caijing"
-      name: "huangjin/caijing"
-      url: "https://www.bing.com/news/search?q=黄金价格+走势&format=RSS"
-
-    - id: "AI"
-      name: "AI"
-      url: "https://www.bing.com/news/search?q=人工智能&format=RSS"
-
 
 # ===============================================================
 # 4. 报告模式
